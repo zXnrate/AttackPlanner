@@ -146,7 +146,7 @@ tsalkapone_trans.turkish= {
 		comm:"Lütfen script hataları veya fikirleriniz hakkında mesaj göndermekten çekinmeyin",
 		des:"Fonksion Açıklamaları",
 		but:"Butonlar",
-		edited_by:"Düzenleyen",
+		edited_by:"Çeviren",
 		created:"Yapımcı",
 		set_list:"Seçenekler ve Fonksiyonlar",
 		res_list:"Script Ayarları",
@@ -503,7 +503,7 @@ $("#tsalscript1").click(function(){
 srcHTML1+='<div align="center" style="width:100%;height:30px;line-height:30px;background:url(https://dl.dropboxusercontent.com/s/wwavk9gdi2dhbo5/tsalkapone_top.png) repeat-x">';
 srcHTML1+='<font color="darkorange" size="4"><b><u>'+tsalkapone_trans.general.script+'</u></b>';
 srcHTML1+='<sup><span style="font-size:small;"><b><i><font color="darkorange">'+version+'</font></i></b></span></sup>&emsp;</font>';
-srcHTML1+='<a class="tsalprofile" href="https://forum.tribalwars.net/index.php?members/tsalkapone.114063/" target="_blank">'+tsalkapone_trans.general.edited_by+' Tsalkapone</a></div>';
+srcHTML1+='<a class="tsalprofile" href="https://forum.tribalwars.net/index.php?members/tsalkapone.114063/" target="_blank">'+tsalkapone_trans.general.edited_by+' zXnrate & Elmaci</a></div>';
 srcHTML1+='<hr><span id="tsalbut1" style="display:none;"><input type="button" id="tsalopen" class="btn tsalbutton" value="'+tsalkapone_trans.buttons.show_results+'"></span>';	
 srcHTML1+='<span id="tsalbut2"><input type="button" id="tsalclose" class="btn tsalbutton" value="'+tsalkapone_trans.buttons.hide_results+'"></span>';	
 	srcHTML1 += "<hr/><span id='tsalkapone_output'></span><br><br><br>";
