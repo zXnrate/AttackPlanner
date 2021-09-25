@@ -4,7 +4,7 @@
 		created: June 24, 2016
  		game version:	version	8.48.1
  		author:		Tsalkapone (tsalkapone@hotmail.com)
-		TR translator:	zXnrate
+		TR translator:	zXnrate & Elmaci
  
  ==== pages where this can be used ==== 
  * combined overview (screen=overview_villages&mode=combined)
@@ -260,7 +260,7 @@ function fnInjectOverviewBar(){
 	tsalkaponecell+='<div id="tsalkapone_div" class="target-select clearfix" width="100%">';
 tsalkaponecell+='<div align="center" style="width:100%;height:30px;line-height:30px;background:url(https://dl.dropboxusercontent.com/s/wwavk9gdi2dhbo5/tsalkapone_top.png) repeat-x">';
 tsalkaponecell+='<font color="darkorange" size="4"><b><u>'+tsalkapone_trans.general.script+'</u></b></font>';
-tsalkaponecell+='&emsp;<a class="tsalprofile" href="https://forum.tribalwars.net/index.php?members/tsalkapone.114063/" target="_blank">'+tsalkapone_trans.general.created+' Tsalkapone</a></div><hr>';
+tsalkaponecell+='&emsp;<a class="tsalprofile" href="https://forum.tribalwars.net/index.php?members/tsalkapone.114063/" target="_blank">'+tsalkapone_trans.general.created+' Tsalkapone Çevirmen: zXnrate & Elmaci</a></div><hr>';
 tsalkaponecell+='<center><span class="tsalkembed1"><img width="20px;" src="https://dl.dropboxusercontent.com/s/s9swak86tirwdpd/Tsalkapone.%20Warning.gif">&emsp;'+tsalkapone_trans.general.attention+'</span></center><hr>';
 	tsalkaponecell+='<table style="width: 100%"><tbody><tr><td width="50%">';
 	tsalkaponecell+='<div id="tsalbuttons" class="target-select clearfix vis float_left" width="50%"><h4><font color=darkgreen><center>Tsalkapone. '+tsalkapone_trans.general.button_list+'</center></font></h4>';
