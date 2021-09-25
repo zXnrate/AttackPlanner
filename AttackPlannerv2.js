@@ -285,7 +285,7 @@ tsalkaponecell+='<input class="btn tsalbutton" type="button" value="'+tsalkapone
 	tsalkaponecell+='<tr><td><font color="maroon"><b>'+tsalkapone_trans.general.selected_one+'</b></font></td>';
 tsalkaponecell+='<td><span id="selectedone"><center>'+lang_img+'</center></span><span id="columnfilter1" style="display:none" class="vis"><font size="2">';
 tsalkaponecell+='<br><br><center><font color="blue"><b><u>'+tsalkapone_trans.general.available+'</u></b></font></center>';
-tsalkaponecell+='<input type="radio"  name="language" value="turkish" id="turkish_lang" ><img title="turkish \n\nBy Tsalkapone" style="cursor:help;" height="20px" width="30px" src="https://github.com/zXnrate/AttackPlanner/blob/main/flag_turkiye.gif?raw=true"><br>';
+tsalkaponecell+='<input type="radio"  name="language" value="turkish" id="turkish_lang" ><img title="turkish \n\nBy Tsalkapone" style="cursor:help;" height="20px" width="30px" src="https://1.bp.blogspot.com/-euWAmP90Bbw/YEVx93NBljI/AAAAAAAA5Cg/qncOMdyGwTM5C7WjbCwbqseNdqTMuDqoACLcBGAsYHQ/s0/Flag_of_Turkey.gif"><br>';
 tsalkaponecell+='<input type="radio"  name="language" value="english" id="english_lang" checked><img height="20px" style="cursor:help;" title="English/American \n\nBy Tsalkapone" width="30px" src="https://dl.dropboxusercontent.com/s/y6tn9ko0g8k2xfx/flagenglezicon.gif"><br>';
 tsalkaponecell+='</span></td></tr>';
 tsalkaponecell+='</tbody></table></div></td><td>';
