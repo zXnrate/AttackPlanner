@@ -250,7 +250,7 @@ function fnInjectOverviewBar(){
 	/* Perform the injection */
 	fnInjectUnits();
 	var lang_img='';
-        if (lang=="turkish") {lang_img ='<img title="Ελληνικά" style="cursor:help;" height="20px" width="30px" src="https://github.com/zXnrate/AttackPlanner/blob/main/flag_turkiye.gif?raw=true">';}
+        if (lang=="turkish") {lang_img ='<img title="Ελληνικά" style="cursor:help;" height="20px" width="30px" src="https://raw.githubusercontent.com/zXnrate/AttackPlanner/main/flag_turkiye.gif?token=AEGH3WOVB5V4QRYSV5IQFH3BJ6Q4I">';}
         else if (lang=="english") {lang_img ='<img height="20px" style="cursor:help;" title="English/American" width="30px" src="https://dl.dropboxusercontent.com/s/y6tn9ko0g8k2xfx/flagenglezicon.gif">';}
  
 	var myself=this;
