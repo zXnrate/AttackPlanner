@@ -34,10 +34,10 @@ var get_lang = localStorage.getItem("time_distance_lang");
     var lang="";
     var tsal_market=game_data.market;
     if (get_lang === null) 	 {
-	if (tsal_market=="gr") {lang="greek";}
+	if (tsal_market=="tr") {lang="turkish";}
   else   {lang = "english";} }
     else { lang = ""+get_lang+"";}
-    var supported_languages =["greek","english"];
+    var supported_languages =["turkish","english"];
     var lang_check = supported_languages.indexOf(lang);
     if (lang_check < 0) {UI.ErrorMessage('<font color=gold><b><center><u>'+tsalkapone_trans.general.notification+' Tsalkapone</u></center></b></font> <br><br> The selected language is not supported. Please select one of the supported languages.', 5000);}
     else {
@@ -131,92 +131,92 @@ var get_lang = localStorage.getItem("time_distance_lang");
 		tsal_notime:"No village can reach the target in the specified arrival time",
 	},
 };
-tsalkapone_trans.greek= { 
+tsalkapone_trans.turkish= { 
 	 general:{ 
-	 script:"Υπολογισμοί Χρόνων & Αποστάσεων",
-	 notification:"Ειδοποίηση από τον",
-            selected_one:"Ενεργή γλώσσα",
-            available:"Διαθέσιμες γλώσσες",
-			button_list:"Πίνακας πλήκτρων",
-			lang_sel:"Επιλέξτε για να αλλάξετε την επιλεγμένη γλώσσσα",
-			message_no:"Όχι",
-		message_yes:"Ναι",
-		message_1:"Το συγκεκριμένο script ενεργοποιείται από τις Επισκοπήσεις -> Συνδυασμένα.",
-		message_2:"Επιθυμείτε αυτόματη ανακατεύθυνση;",
-		comm:"Επικοινωνήστε ανά πάσα στιγμή για οποιαδήποτε ιδέα ή πρόταση σχετικά με τα scripts με τον",
-		des:"Περιγραφή λειτουργίας",
-		but:"Πλήκτρα",
-		edited_by:"Δημιουργήθηκε από τον",
-		created:"Δημιουργήθηκε από τον",
-		set_list:"Ρυθμίσεις & Λειτουργίες",
-		res_list:"Ρυθμίσεις Script",
-		blank:"Επιλέξτε ένα πλήκτρο οποιουδήποτε script για να εμφανιστούν οι ρυθμίσεις του",
-		script_1:"Υπολογισμός απόστασης μεταξύ δυο χωριών",
-		script_2:"Υπολογισμός χρόνου επιστροφής μιας εντολής",
-		script_3:"Υπολογισμός snipe εντολής στο χρόνο μιας επιστρεφόμενης εντολής",
-		script_4:"Υπολογισμός snipe εντολής",
-		script_5:"Ανοίξτε σε νέα καρτέλα το εργαλείο Time Calculator",
-		script_6:"Υπολογίστε τα μέγιστα πεδία κάθε μονάδας που απαιτούνται για την επιλεγμένη διάρκεια",
-		send:"Στείλε",
-		vil_from:"από το",
-		vil_to:"στο",
-		lau:"στις",
-		speed:"Βραδύτερη Μονάδα",
-		amount:"Ποσότητα",
-		ori:"Προέλευση",
-		dest:"Στόχος",
-		lau_time:"Ώρα Εκκίνησης",
-		list_form:"Χρόνοι Snipe σε μορφή λίστας",
-		tab_form:"Χρόνοι Snipe σε μορφή πίνακα",
-		attention:"ΠΡΟΣΟΧΗ: Έχει παρατηρηθεί ότι μερικές φορές ο χρόνος του server που εμφανίζεται στην οθόνη έχει 1 δευτερόλεπτο καθυστέρηση. Σε αυτή τη περίπτωση αφαιρέστε 1 δευτερόλεπτο από κάθε εξαγωμένο χρόνο.",
-		vil1:"Χωριό Προέλευσης",
-		vil2:"Χωριό Προορισμού",
-		dur:"Διάρκεια",
-		tsal_apply:"Εφαρμογή",
-		tsal_search:"Υπολογισμός",
+	 script:"Zaman & Mesafe Hesaplayıcı",
+	 notification:"Bildirimler",
+            selected_one:"Tercih edilen Dil",
+            available:"Tercih edilebilir Diller",
+			button_list:"Buton Listesi",
+			lang_sel:"Tercih edilen dili değiştirmek için tıklayın",
+			message_no:"Hayır",
+		message_yes:"Evet",
+		message_1:"Bu script Genel Bakış -> Kombine sayfalarında çalışır.",
+		message_2:"Otomatik olarak bu sayfaya yönlendirilmek ister misiniz?",
+		comm:"Lütfen script hataları veya fikirleriniz hakkında mesaj göndermekten çekinmeyin",
+		des:"Fonksion Açıklamaları",
+		but:"Butonlar",
+		edited_by:"Düzenleyen",
+		created:"Yapımcı",
+		set_list:"Seçenekler ve Fonksiyonlar",
+		res_list:"Script Ayarları",
+		blank:"Ayarları ve değerleri görüntülemek için herhangi bir script butonuna tıklayın",
+		script_1:"İki köy arasındaki mesafeyi hesapla",
+		script_2:"Ordunun dönüş zamanını hesapla",
+		script_3:"Dönen ordunun varış zamanını hesapla",
+		script_4:"Ordunun varış zamanını hesapla",
+		script_5:"Zaman hesaplayıcıyı yeni sekmede aç",
+		script_6:"Askerlerin seçilen sürede ne kadar mesafe-birim ilerleyebileceğini hesapla",
+		send:"Gönder",
+		vil_from:"from",
+		vil_to:"to",
+		lau:"on",
+		speed:"Birim Hızı",
+		amount:"Adet",
+		ori:"Kaynak",
+		dest:"Hedef",
+		lau_time:"Saldırı Zamanı",
+		list_form:"Varış Zamanı Liste Formu",
+		tab_form:"Varış Zamanı Tablo Formu",
+		attention:"DİKKAT: Sunucu saati bazen 1 saniye gecikmeli olabiliyor. Lütfen dikkatli olun!",
+		vil1:"Kaynak",
+		vil2:"Hedef",
+		dur:"Süre",
+		tsal_apply:"Onayla",
+		tsal_search:"Hesapla",
 		tsal_speed:"Ταχύτητες Μονάδων",
-		spear:"Δορατοφόρος",
-		sword:"Ξιφομάχος",
-		axe:"Τσεκουρομάχος",
-		archer:"Τοξότης",
-		spy:"Ανιχνευτής",
-		light:"Ελαφρύ ιππικό",
-		heavy:"Βαρύ ιππικό",
-		marcher:"Έφιππος τοξότης",
-		ram:"Πολιορκητικός κριός",
-		cats:"Καταπέλτης",
-		knight:"Paladin",
-		snob:"Αριστοκράτης",
-		tsal_time:"Ώρα Αφιξης",
-		tsal_target:"Χωριό Στόχος",
-		tsal_unit:"Αναγνωριμένη Μονάδα",
-		tsal_dur:"Διάρκεια",
-		tsal_error:"ΣΦΑΛΜΑ",
-		tsal_notime:"Κανένα χωριό δεν δύναται να φτάσει τον επιλεγμένο προορισμό στη καθορισμένη ώρα άφιξης",
-		info1:"Εισάγετε τις συντεταγμένες του χωριού προέλευσης της εντολής.",
-		info2:"Εισάγετε τις συντεταγμένες του χωριού προορισμού της εντολής.",
-		info3:"Στο συγκεκριμένο πλαίσιο εισάγετε ημερομηνία άφιξης εντολής αναγράφοντας το μήνα (τα πρώτα τρία γράμματα στα αγγλικά), ημερομηνία, έτος και την ώρα (ώρα:λεπτά:δευτερόλεπτα) σε 24ώρη κλίμακα.",
-		info4:"Επιλέξτε την αναγνωρισμένη ως βραδύτερη μονάδα της εντολής. Αν δεν έχετε αναγνωρίσει σωστά μια εντολή επιλέξτε τυχαία μονάδα ή εγκατελείψτε την απόπειρα snipe.",
-		info5:"Εισάγετε τις συντεταγμένες του χωριού-στόχου.",
-		info6:"Επιλέξτε ένα κουτί δίπλα από μια μονάδα για να συμπεριλάβετε την ταχύτητά της στους υπολογισμούς χρόνων snipe. Αποεπιλέξτε για να την αποκλείσετε.",
-		info7:"Εισάγετε μια χρονική διάρκεια με την εξής μορφή: ώρες:λεπτά:δεύτερα",
+		spear:"Mızrakçı",
+		sword:"Kılıç Ustası",
+		axe:"Baltacı",
+		archer:"Okçu",
+		spy:"Casus",
+		light:"Hafif Atlı",
+		heavy:"Ağır Atlı",
+		marcher:"Atlı Okçu",
+		ram:"Şahmerdan",
+		cats:"Mancınık",
+		knight:"Şövalye",
+		snob:"Misyoner",
+		tsal_time:"Varış Zamanı",
+		tsal_target:"Hedef Köy",
+		tsal_unit:"En Yavaş Birim",
+		tsal_dur:"Süre",
+		tsal_error:"HATA!",
+		tsal_notime:"Hiçbir köyün ordusu hedefe zamanında varamıyor!",
+		info1:"Kaynak köyün koordinatlarınızı girin.",
+		info2:"Hedef köyün koordinatlarını girin.",
+		info3:"Varış zamanını girin. Ay bilgisi İngilizce olmak zorunda. Süreyi saat:dakika:saniye şeklinde girmeyi unutmayın.",
+		info4:"Kaynak köyden çıkan ordunun en yavaş birimini seçin. Herhangi bir birimi seçmezseniz script rastgele bir birim seçer.",
+		info5:"Hedef köyün koordinatlarınızı girin.",
+		info6:"Zaman değerlerini doğru alabilmek için birimlerin yanındaki kutucukları kullanın. Kullanmak istemediğiniz birimlerin kutucuklarını boş bırakmayı unutmayın.",
+		info7:"Süreyi saat:dakika:saniye şeklinde kullanın.",
 	},
 	buttons:{		
-			  lang_open:"Άνοιγμα επιλογής γλώσσας",
-              lang_close:"Κλείσιμο επιλογής γλώσσας",
-			  script_1:"Απόσταση",
-		script_2:"Back-Time",
-		script_3:"Snipe Back-Time",
-		script_4:"Snipe",
-		script_5:"Time Calculator",
-		script_6:"Υπολογισμός Πεδίων",
-		show_results:"Εμφάνιση Αποτελεσμάτων",
-		hide_results:"Απόκρυψη Αποτελεσμάτων",
-		tsal_info:"Οδηγίες Χρήσης",
+			  lang_open:"Dil tercihlerini aç",
+              lang_close:"Dil tercihlerini kapat",
+			  script_1:"Zaman Hesaplayıcı",
+		script_2:"Dönüş Zamanı",
+		script_3:"Dönen Ordunun Varış Zamanı",
+		script_4:"Varış Zamanı",
+		script_5:"Zaman Hesaplayıcı",
+		script_6:"Mesafe-Birim Hesaplayıcı",
+		show_results:"Sonuçları Göster",
+		hide_results:"Sonuçları Gizle",
+		tsal_info:"Bilgi & İpuçları",
 	},
 	notes:{
-		activated:"Το script Υπολογισμοί Χρόνων & Αποστάσεων έχει ήδη ενεργοποιηθεί",
-		tsal_notime:"Κανένα χωριό δεν δύναται να φτάσει τον επιλεγμένο προορισμό στη καθορισμένη ώρα άφιξης",
+		activated:"Script zaten aktif",
+		tsal_notime:"Hiçbir köyün ordusu hedefe zamanında varamıyor!",
 	},
 };
     return tsalkapone_trans[lang];
@@ -250,7 +250,7 @@ function fnInjectOverviewBar(){
 	/* Perform the injection */
 	fnInjectUnits();
 	var lang_img='';
-        if (lang=="greek") {lang_img ='<img title="Ελληνικά" style="cursor:help;" height="20px" width="30px" src="https://dl.dropboxusercontent.com/s/ivyojb6w9cb9pem/flag_greece.gif">';}
+        if (lang=="turkish") {lang_img ='<img title="Ελληνικά" style="cursor:help;" height="20px" width="30px" src="https://github.com/zXnrate/AttackPlanner/blob/main/flag_turkiye.gif?raw=true">';}
         else if (lang=="english") {lang_img ='<img height="20px" style="cursor:help;" title="English/American" width="30px" src="https://dl.dropboxusercontent.com/s/y6tn9ko0g8k2xfx/flagenglezicon.gif">';}
  
 	var myself=this;
@@ -285,7 +285,7 @@ tsalkaponecell+='<input class="btn tsalbutton" type="button" value="'+tsalkapone
 	tsalkaponecell+='<tr><td><font color="maroon"><b>'+tsalkapone_trans.general.selected_one+'</b></font></td>';
 tsalkaponecell+='<td><span id="selectedone"><center>'+lang_img+'</center></span><span id="columnfilter1" style="display:none" class="vis"><font size="2">';
 tsalkaponecell+='<br><br><center><font color="blue"><b><u>'+tsalkapone_trans.general.available+'</u></b></font></center>';
-tsalkaponecell+='<input type="radio"  name="language" value="greek" id="greek_lang" ><img title="Greek \n\nBy Tsalkapone" style="cursor:help;" height="20px" width="30px" src="https://dl.dropboxusercontent.com/s/ivyojb6w9cb9pem/flag_greece.gif"><br>';
+tsalkaponecell+='<input type="radio"  name="language" value="turkish" id="turkish_lang" ><img title="turkish \n\nBy Tsalkapone" style="cursor:help;" height="20px" width="30px" src="https://github.com/zXnrate/AttackPlanner/blob/main/flag_turkiye.gif?raw=true"><br>';
 tsalkaponecell+='<input type="radio"  name="language" value="english" id="english_lang" checked><img height="20px" style="cursor:help;" title="English/American \n\nBy Tsalkapone" width="30px" src="https://dl.dropboxusercontent.com/s/y6tn9ko0g8k2xfx/flagenglezicon.gif"><br>';
 tsalkaponecell+='</span></td></tr>';
 tsalkaponecell+='</tbody></table></div></td><td>';
@@ -323,15 +323,15 @@ content+='</div>';
 
 
 
-       if (get_lang == "greek") {document.getElementById('greek_lang').checked = true;}
+       if (get_lang == "turkish") {document.getElementById('turkish_lang').checked = true;}
       else  if (get_lang == "english") {document.getElementById('english_lang').checked = true; }
          $("#english_lang").click(function(){
 	localStorage.setItem("time_distance_lang","english");     
 location.reload();
     });
 	
-      $("#greek_lang").click(function(){
-	localStorage.setItem("time_distance_lang","greek");
+      $("#turkish_lang").click(function(){
+	localStorage.setItem("time_distance_lang","turkish");
 location.reload();
     });
     
